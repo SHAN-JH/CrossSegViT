@@ -22,28 +22,28 @@ The [Crack500](https://ieeexplore.ieee.org/document/8694955) dataset contains 50
 |-- Crack500
     |-- train
         |-- images
-        |   |-- 20160222_081011_1_361.jpg
+        |   |-- 119.jpg
             ......
         |-- masks
-        |   |-- 20160222_081011_1_361.png
+        |   |-- 119.png
             ......
     |-- test
         |-- images
-        |   |-- 20160222_080933_361_1.jpg
+        |   |-- 124.jpg
             ......
         |-- masks
-        |   |-- 20160222_080933_361_1.png
+        |   |-- 124.png
             ......
     |-- val
         |-- images
-        |   |-- 20160222_080850_1_361.jpg
+        |   |-- 131.jpg
             ......
         |-- masks
-        |   |-- 20160222_080850_1_361.png
+        |   |-- 131.png
             ......
 ```
 ### 2. CrackSC dataset
-The [CrackSC](https://www.sciencedirect.com/science/article/pii/S0926580522005167) dataset  consists of 197 road damage images (320  480 pixels) captured by an iPhone 8 around Enoree Ave, Columbia, SC. This dataset emphasizes complex pavement distress scenes with interference factors like shadows, leaves, and moss, which pose significant challenges to crack detection. Without a predefined dataset division by the authors, we divided it into 99 training images, 19 validation images, and 79 testing images, adhering to a 5:1:4 distribution ratio. Download the Crack500 dataset from [this](https://github.com/jonguo111/Transformer-Crack) link.
+The [CrackSC](https://www.sciencedirect.com/science/article/pii/S0926580522005167) dataset  consists of 197 road damage images (320 × 480 pixels) captured by an iPhone 8 around Enoree Ave, Columbia, SC. This dataset emphasizes complex pavement distress scenes with interference factors like shadows, leaves, and moss, which pose significant challenges to crack detection. Without a predefined dataset division by the authors, we divided it into 99 training images, 19 validation images, and 79 testing images, adhering to a 5:1:4 distribution ratio. Download the CrackSC dataset from [this](https://github.com/jonguo111/Transformer-Crack) link.
 ```
 |-- CrackSC
     |-- train
